@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck6"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--Symptoms-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Symptoms:"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#201730"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E8D1D6E6"/>
+
+    <Spinner
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E8D1D6E6"/>
+
+    <Spinner
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E8D1D6E6"/>
+
+    <Spinner
+        android:id="@+id/s4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E8D1D6E6"/>
+
+    <Spinner
+        android:id="@+id/s5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E8D1D6E6"/>
+
+    <!--btn-click-->
+    <!--    <Button-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#E11313"-->
+    <!--        android:text="Click Me"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:id="@+id/click"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--Disease-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/click"
+        android:textSize="20sp"
+        android:text="Prescribe"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:focusable="true"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="15dp"/>
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Disease:"
+        android:textColor="#d4d4d4"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginLeft="10dp"/>
+
+    <!--Description-->
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Description:"
+        android:textColor="#d4d4d4"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginLeft="10dp"/>
+
+    <!--Precaution-->
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Precaution:"
+        android:textColor="#d4d4d4"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+</ScrollView>
